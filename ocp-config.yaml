@@ -1,0 +1,13 @@
+projectName: hello-apollo
+applicationName: hello-apollo
+pipelineRef: nodejs-pipeline
+manifestGitUrl: ssh://git@github.com/dgipjn/ocp-manifests.git
+enabledLintSonar: true
+ignoreLinterFailures: true
+ignoreTestFailures: true
+ignoreScanFailures: true
+ignoreQualityGate: true
+enableCompile: 
+mavenImage: image-registry.openshift-image-registry.svc:5000/openshift/java:openjdk-17-ubi8
+
+
