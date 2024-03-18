@@ -9,6 +9,6 @@ ignoreScanFailures: true
 ignoreQualityGate: true
 enableCompile: true
 useModulesCache: false
-mavenImage: image-registry.openshift-image-registry.svc:5000/openshift/nodejs:18-ubi8
+nodejsImage: image-registry.openshift-image-registry.svc:5000/openshift/nodejs:18-ubi8
 
 
