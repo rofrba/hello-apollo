@@ -8,6 +8,6 @@ ignoreTestFailures: true
 ignoreScanFailures: true
 ignoreQualityGate: true
 enableCompile: 
-mavenImage: image-registry.openshift-image-registry.svc:5000/openshift/java:openjdk-17-ubi8
+mavenImage: image-registry.openshift-image-registry.svc:5000/openshift/nodejs:18-ubi8
 
 
