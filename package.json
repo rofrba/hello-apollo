@@ -9,6 +9,7 @@
     "build": "npm run compile",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./dist/index.js"
   },
   "keywords": [],
