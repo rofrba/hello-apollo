@@ -9,6 +9,6 @@ ignoreScanFailures: true
 ignoreQualityGate: true
 enabledCompile: true
 useModulesCache: false
-nodejsImage: image-registry.openshift-image-registry.svc:5000/openshift/nodejs:18-ubi8
+nodejsImage: nodejs:18-ubi8
 
 
