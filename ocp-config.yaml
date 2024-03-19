@@ -2,11 +2,11 @@ projectName: hello-apollo
 applicationName: hello-apollo
 pipelineRef: nodejs-pipeline
 manifestGitUrl: ssh://git@github.com/dgipjn/ocp-manifests.git
-enabledLintSonar: true
-ignoreLinterFailures: true
-ignoreTestFailures: true
-ignoreScanFailures: true
-ignoreQualityGate: true
+# enabledLintSonar: true
+# ignoreLinterFailures: true
+# ignoreTestFailures: true
+# ignoreScanFailures: true
+# ignoreQualityGate: true
 enabledCompile: false
 useModulesCache: true
 nodejsImage: image-registry.openshift-image-registry.svc:5000/openshift/nodejs:18-ubi8
