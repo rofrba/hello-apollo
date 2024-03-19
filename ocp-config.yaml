@@ -7,7 +7,7 @@ ignoreLinterFailures: true
 ignoreTestFailures: true
 ignoreScanFailures: true
 ignoreQualityGate: true
-enabledCompile: true
+enabledCompile: false
 useModulesCache: true
 nodejsImage: image-registry.openshift-image-registry.svc:5000/openshift/nodejs:18-ubi8
 
