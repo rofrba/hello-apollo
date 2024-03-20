@@ -4,36 +4,27 @@ This is the complete code from [Get started with Apollo Server](https://www.apol
 
 ## Run locally
 
-
-
-TEST
-```shell
+```bash
 npm install
-# agregamos
-"build": "npm run compile"
-"lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-# modificamos
 npm start
 
-npm init @eslint/config
 ```
 
 El package.json deberia quedar algo asi
 ```json
 
 {
-  {
   "name": "hello-apollo",
   "version": "1.0.0",
   "description": "An example of getting started with the AS4 alpha",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "postinstall": "npm run compile",
     "build": "npm run compile",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "echo \"Error: no lint specified\" && exit 0",
     "compile": "tsc",
-    "start": "node ./dist/index.js"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "node ./dist index.js"
   },
   "keywords": [],
   "author": "",
@@ -51,7 +42,6 @@ El package.json deberia quedar algo asi
     "eslint": "^8.57.0"
   }
 }
-
 
 ```
 
