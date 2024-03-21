@@ -5,6 +5,7 @@ This is the complete code from [Get started with Apollo Server](https://www.apol
 ## Run locally
 
 ```bash
+## node 18 ##
 npm install
 npm start
 
