@@ -2,7 +2,7 @@
 
 This is the complete code from [Get started with Apollo Server](https://www.apollographql.com/docs/apollo-server/v4/getting-started).
 
-## Run locally release
+## Run locally
 
 ```bash
 ## node 18 ##
