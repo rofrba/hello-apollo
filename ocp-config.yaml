@@ -1,6 +1,7 @@
 projectName: hello-apollo
 applicationName: hello-apollo
 pipelineRef: nodejs-pipeline
+pipelineRefProd: cd-pipeline
 manifestGitUrl: ssh://git@github.com/dgipjn/ocp-manifests.git
 # enabledLintSonar: true
 # ignoreLinterFailures: true
